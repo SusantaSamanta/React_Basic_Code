@@ -1,0 +1,120 @@
+#foodCardBody {
+    height: 450px;
+    width: 350px;
+    margin: 20px;
+    /* padding-block: 15px; */
+    padding-inline: 15px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    border: 1px solid #ededed;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0px 0px 20px 3px #d8d8d8;
+}
+
+#foodId {
+    height: 22px;
+    width: 22px;
+    margin-bottom: 10px;
+    padding-top: 3.5px;
+    text-align: center;
+    color: #ababab;
+    border: 1px solid #ababab;
+    font-size: 13px;
+    border-radius: 50%;
+}
+
+#category {
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #ababab;
+    text-transform: uppercase;
+}
+
+#foodName {
+    margin-bottom: 5px;
+    font-size: 28px;
+}
+
+#foodDsc {
+    color: #ababab;
+    line-height: 18px;
+    margin-bottom: 10px;
+    display: -webkit-box;
+    line-clamp: 4;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+#dscUnderLine {
+    height: 5px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 15px;
+
+    p {
+        width: 100%;
+        border-top: 1px solid #cfcfcf;
+    }
+
+    span {
+        font-size: 12px;
+        letter-spacing: 4px;
+    }
+}
+
+#foodImgContainer {
+    height: 170px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
+}
+
+#foodImg {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+    box-shadow: 0px 0px 5px 1px #969696;
+}
+
+#foodImg:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 0px 8px 2px #969696;
+}
+
+#foodOrderButtonContainer{
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span{
+        color: #535353;
+    }
+}
+
+#foodOrderButton{
+    height: 30px;
+    width: 85px;
+    border: 1px solid #bdbdbd;
+    background: #efefef;
+    color: #535353;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+#foodOrderButton:hover{
+    background: #e4e4e4;
+}
+

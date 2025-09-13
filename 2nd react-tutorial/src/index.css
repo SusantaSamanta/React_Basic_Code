@@ -1,0 +1,8 @@
+/* this index.css will use in main.jsx and apply all component  */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: 'Times New Roman', Times, serif; */
+}

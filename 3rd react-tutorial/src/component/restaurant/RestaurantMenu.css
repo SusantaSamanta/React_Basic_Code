@@ -1,0 +1,97 @@
+#foodNaveBar {
+    height: 60px;
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.menuSize {
+    /* min-width: 90px; */
+    height: 30px;
+    padding-inline: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    background: white;
+    border: 1px solid #dcdcdc;
+    border-radius: 15px;
+    color: #575757;
+    font-weight: 700;
+    box-shadow: 0px 0px 6px 1px #e4e4e4;
+}
+
+.menuSize:hover {
+    background: #d2e3ff;
+    border: 1px solid #5c8df8;
+    color: #000000;
+}
+
+
+.menuActive {
+    background: #d2e3ff;
+    border: 1px solid #5c8df8;
+    color: #000000;
+}
+
+#categoryListId{
+    margin-left: 0px;
+}
+
+.cartBtnClass{
+    height: 30px;
+    padding-inline: 20px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    background: white;
+    border: 1px solid #dcdcdc;
+    border-radius: 15px;
+    color: #575757;
+    font-weight: 700;
+}
+
+.cartBtnClass:hover {
+    background: #fcff32;
+    border: 1px solid #7e7202;
+    color: #000000;
+}
+.cartIdActive{
+    background: #fcff32;
+    border: 1px solid #7e7202;
+    color: #000000;
+}
+
+
+
+
+#foodContainer {
+    padding-inline: 50px;
+    padding-bottom: 50px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+#cartItemsContainer{
+    padding-inline: 50px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

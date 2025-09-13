@@ -1,0 +1,51 @@
+⭐ To install vite + react we need to follow the following stapes : 
+    1: in cmd go to the folder ib which want to install and write :
+            (a): npm create vite@latest
+            
+            (b): Project name : <give a project name> 
+                                            note that the name of the project is the folder name is 
+                                            which the vite application is created.
+            (c): select a framework : 
+                    > React
+                 select a variant 
+                    > JavaScript
+        now the folder is created as the name of the <project name>            
+    2: go the the project folder in cmd and write:
+            (a): npm i
+                wait
+            (b): npm run dev
+        now the default application of vite will run.
+
+    
+⭐ Now clean the files:
+    App.css, index.css, App.jsx : and write rafce 
+    Delete : assets folder
+
+
+
+⭐ Now we see how react run 'Hello World' project :
+
+(1): App.jsx 
+        import React from 'react';
+        export const App = () => {  
+            return (
+                <div>Hello world</div> 
+            ) 
+        }
+        export default App;
+    
+    this App.jsx return a component(App) to main.jsx 
+(2): main.jsx
+        import { StrictMode } from 'react'
+        import { createRoot } from 'react-dom/client'
+        import App from './App.jsx'
+
+        createRoot(document.getElementById('root')).render(
+            <StrictMode>
+                <App /> 
+            </StrictMode>
+        )
+    this main.jsx send the jsx components inside <StrictMode> tag to the index.html <div> which id="root"
+(3): index.html
+        
+    this can show the hole component as like html.
